@@ -6,7 +6,7 @@
 
 module Tests where
 
-import Main hiding (main)
+import Lib hiding (main)
 
 allTests :: [([Bool], String)]
 allTests = [ (tests_mytake, "mytake")
